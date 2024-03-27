@@ -3,21 +3,21 @@ This is the full breakdown of dataset of over 20 Global smartwatches brands who 
 
 ## DOCUMENTATION OUTLINE
 
-- Project Overview
+- [Project Overview](#project-overview)
 
-- Project Objectives
+- [Project Objectives](#the-project-objectives)
 
-- Data Sources
+- [Data Sources](#data-sources)
 
-- Tools Used for Analysis
+- [Tools Used for Analysis](#tools-used-for-analysis)
 
-- Data Cleaning Preparation & Transformation
+- [Data Cleaning, Preparation and Transformation](#data-cleaning-preparation-and-transformation)
 
-- Observations and Results
+- [Observations and Results](#observations-and-results)
 
-- Recommendations
+- [Recommendations](#recommendations)
 
-- Contact Info
+- [Contact Info](#contact-info)
 
 ## Project Overview
 This project is to tell a story on attrition based on employee statistics and analyze various metrics related to the

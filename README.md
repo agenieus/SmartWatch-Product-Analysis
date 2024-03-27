@@ -42,7 +42,7 @@ The data was provided by the SkilHarvest Data Analysis Instructor in xlsx format
 - MS Power BI for Report & Visualization [Download Here](https://powerbi.microsoft.com/en-us/downloads/)
 - MS Powerpoint for presentation [Download Here](https://www.microsoft.com/en/microsoft-365/powerpoint)
   
-## Data Cleaning, Preparation & Transformation
+## Data Cleaning, Preparation and Transformation
 
 
 

@@ -34,8 +34,8 @@ Attrition Analysis II shows attrition by monthly income, overtime, etc.
 
 
 ## Data Sources
-The data was provided by the SkilHarvest Data Analysis Instructor in xlsx format.
-
+The data was gotten from Kaggle. Data consisted of 380 rows and 13 columns; totals 4940 data entries of data about the top manufacturers of wristwatches worldwide; their watches and features relative to their prices.
+![](rawdata.png)
 
 ## Tools Used for Analysis
 - Ms Excel for Data Cleaning [Download Here](https://www.microsoft.com/en-us/microsoft-365/excel)
@@ -43,7 +43,7 @@ The data was provided by the SkilHarvest Data Analysis Instructor in xlsx format
 - MS Powerpoint for presentation [Download Here](https://www.microsoft.com/en/microsoft-365/powerpoint)
   
 ## Data Cleaning, Preparation and Transformation
-![](rawdata.png)
+
 
 ## Exploratory Data Analysis
 The data set contains 371 different smartwatch models with different specifications that influence the price of the smartwatches. The following are the insights to be derived from the analysis:

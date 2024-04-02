@@ -43,6 +43,7 @@ The data was provided by the SkilHarvest Data Analysis Instructor in xlsx format
 - MS Powerpoint for presentation [Download Here](https://www.microsoft.com/en/microsoft-365/powerpoint)
   
 ## Data Cleaning, Preparation and Transformation
+![](rawdata.png)
 
 ## Exploratory Data Analysis
 The data set contains 371 different smartwatch models with different specifications that influence the price of the smartwatches. The following are the insights to be derived from the analysis:

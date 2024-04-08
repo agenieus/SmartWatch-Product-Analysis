@@ -5,8 +5,6 @@ This is the full breakdown of dataset of over 20 Global smartwatches brands who 
 
 - [Project Overview](#project-overview)
 
-- [Project Objectives](#the-project-objectives)
-
 - [Data Sources](#data-sources)
 
 - [Tools Used for Analysis](#tools-used-for-analysis)
@@ -20,21 +18,11 @@ This is the full breakdown of dataset of over 20 Global smartwatches brands who 
 - [Contact Info](#contact-info)
 
 ## Project Overview
-This project is to tell a story on attrition based on employee statistics and analyze various metrics related to the
-workforce, such as employee attrition, performance rating, job satisfaction, etc.
-
-## The Project Objectives
-Demographics- this summarizes employee statistics such as age group, gender, marital status, etc,
-
-Employee wellness provides insights to performance ratings, job satisfactions, work life balance.
-
-Attrition Analysis I shows employee attrition by job roles, departments, years in current role, etc.
-
-Attrition Analysis II shows attrition by monthly income, overtime, etc.
+This project involved a dataset containing data on the prices of different brands and models of smartwatches available in the market. The datasets give information about the smartwatches' specifications and how they affect the market price. This data analysis project aims to explore the various specifications of wristwatch brands and look at the more suitable brands in terms of functionality, health specifications, and cost-efficiency for buyers.
 
 
 ## Data Sources
-The data was gotten from Kaggle. Data consisted of 380 rows and 13 columns; totals 4940 data entries of data about the top manufacturers of wristwatches worldwide; their watches and features relative to their prices.
+The data was gotten from Kaggle. Data consisted of 380 rows and 13 columns; totals 4940 data entries of data about the top manufacturers of wristwatches worldwide; their watches and features relative to their prices. [check here for data](https://www.kaggle.com/datasets/rkiattisak/smart-watch-prices).
 ![](rawdata.png)
 
 ## Tools Used for Analysis
@@ -43,27 +31,35 @@ The data was gotten from Kaggle. Data consisted of 380 rows and 13 columns; tota
 - MS Powerpoint for presentation [Download Here](https://www.microsoft.com/en/microsoft-365/powerpoint)
   
 ## Data Cleaning, Preparation and Transformation
+Cleaning and transformation of the data were performed in the Power BI query which included the following:
 
+- Changing of data types
+- Splitting of columns
+- Creating conditional columns to create more measures
+- Removing empty and duplicate rows
+- Removing N/As
+- Made sure the values are consistent within the column for better visualization
 
 ## Exploratory Data Analysis
 The data set contains 371 different smartwatch models with different specifications that influence the price of the smartwatches. The following are the insights to be derived from the analysis:
 
-Total number of smartwatches in the dataset
-Total number of smartwatch brands in the dataset
-Maximum battery life of smartwatches in the dataset
-Minimum battery life of smartwatches in the dataset
-Average price of a smartwatch in the dataset
-Total number of distinct display types used by smartwatches in the dataset
-What are the most common types of operating systems used by the brands?
-How does the most common OS affect the price?
-What are the most common types of displays used by these smartwatches?
-How does the most popular display type affect the price?
-Comparison between the cellular and GPS connectivity and how they affect the price
-Comparison between NFC and GPS and their effect on Price
-Which smartwatches have the health benefit feature of a heart rate monitor and how this affects the price?
+- Total number of smartwatches in the dataset
+- Total number of smartwatch brands in the dataset
+- Maximum battery life of smartwatches in the dataset
+- Minimum battery life of smartwatches in the dataset
+- Average price of a smartwatch in the dataset
+- Total number of distinct display types used by smartwatches in the dataset
+- What are the most common types of operating systems used by the brands?
+- How does the most common OS affect the price?
+- What are the most common types of displays used by these smartwatches?
+- How does the most popular display type affect the price?
+- Comparison between the cellular and GPS connectivity and how they affect the price
+- Comparison between NFC and GPS and their effect on Price
+- Which smartwatches have the health benefit feature of a heart rate monitor and how this affects the price?
+ 
 
-## Data Visualization and Findings
-
+## Observations and Results
+![](dashboard1.png)
 
 Findings
 
@@ -83,8 +79,6 @@ Smartwatches with the cellular type of connectivity have higher price compared t
 
 The Maximum battery life of a wristwatch in the dataset is 72 days while the minimum is 1 day.
 
-
-
 Findings
 
 Smartwatch model Pro 3 has the maximum battery life of 72 days, followed by Enduro with 70 days, Galaxy Watch at 60 days, and Galaxy Watch 3 at 56 days
@@ -92,10 +86,6 @@ Smartwatch model Pro 3 has the maximum battery life of 72 days, followed by Endu
 Access Brad, Access Gen 5, Access Runway, C2, Falster 2, Falster 3, and G-Shock GS all have a minimum battery life of 1 day.
 
 The TAG Heuer smartwatch brand is the most expensive with the average price of $1,537 while Xiaomi smartwatch brand is the least expensive with the average price of $137 USD.
-
-
-## Observations and Results
-
 
 
 ## Recommendations

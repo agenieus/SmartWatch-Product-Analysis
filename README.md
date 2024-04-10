@@ -1,5 +1,5 @@
 # SmartWatch-Product-Analysis
-This is the full breakdown of dataset of over 20 Global smartwatches brands who are leaders in the industry, the role of the quality of product in the corresponding market cap of the brands in the Smart watch industry.
+This is the full breakdown of dataset of 38 Global smartwatches brands who are leaders in the industry, the role of the quality of product in the corresponding market cap of the brands in the Smart watch industry.
 
 ## DOCUMENTATION OUTLINE
 
@@ -51,21 +51,42 @@ The data was gotten from Kaggle. Data consisted of 380 rows and 13 columns; tota
 ## Data Cleaning, Preparation and Transformation
 Cleaning and transformation of the data were performed in the Power BI query which included the following:
 
+- Promoted Headers
 - Changing of data types
-- Splitting of columns
+- Removed blank and duplicate rows
+- Splitting of columns of combined watch attributes.
 - Creating conditional columns to create more measures
-- Removing empty and duplicate rows
-- Removing N/As
-- Made sure the values are consistent within the column for better visualization
-
+- Replacing values
  
 
 ## Observations and Results
 ![](dashboard1.png)
 
-Findings
 
-There are a total of 371 smartwatches in the dataset with 38 distinct brands, 133 distinct models of smartwatches, and 24 different display types of smartwatches. From the data, there are 344 GPS-enabled smartwatches and the average price of a smartwatch is $312.
+
+### Descriptive Analysis
+This is a narration of all the key metrics observed in this data.
+
+- There are a total of 371 smartwatches in the dataset with 38 distinct brands, 132 distinct models of smartwatches, and 24 different Operating Systems of smartwatches and the average price of a smartwatch is $312.
+
+- #### SmartWatches Specifics
+
+ Smartwatches Count By Operating System:
+- Wear Os has 141 watches using the OS out of 371, that is 38% of the total watches; the most utilized OS by a large margin, followed by Garmin Os, which 34 watches used Garmin Os; special mentions: Android has 5 watches and WatchOS by apple has 14 watches using it.
+- we can see that so many brands used wearOS because it has an open-source , has good reliability for a good price, so the goal is to make a watch affordable as possible and still having a good quality
+- lets also take note that Android is also an open source software predominantly used in mobile phones, However Watch companies are opting for WearOs instead of Android; this is because WearOs is actually a refined Android OS, Which is tailored to meet the end user needs of a smartwatch and not a mobile phone.
+
+
+  Smartwatches Count By Brand:
+- Garmin has 34 smartwatches in the data , the highest in the dataset, followed by Fitbit and 
+Mobvoi at 24 smartwatches each, Apple has 14 watches and raks 12th on the data. for number of watches
+- We can see that both Garmin, Apple,Samsung,Polar, Fitbit, Amazfit have their proprietary operating system which are the garmin os and watchos ,TizenOs respectively.
+
+   Smartwatch OS by Brand
+- WearOS is used by 21 different brands out of the 38 brands that's about 56% of the brands using this OS, that shows a massive dominance in the operating system sector followed by proprietary operating system which isnt exactly proprietary because about 8 distinct brands make use of this OS; androidOs has 4 brands and Lite Os has 2, the rest OS has just 1 brands.
+
+
+
 
 Wear OS is the most used operating system by the smartwatches in this data totaling 38% of the total smartwatches. It is followed by Garmin OS which is used by 9% of the smartwatches.
 

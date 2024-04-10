@@ -64,7 +64,7 @@ Cleaning and transformation of the data were performed in the Power BI query whi
 
 
 
-### Descriptive Analysis
+### Descriptive and Diagnostic Analysis of Smartwatches
 This is a narration of all the key metrics observed in this data.
 
 - There are a total of 371 smartwatches in the dataset with 38 distinct brands, 132 distinct models of smartwatches, and 24 different Operating Systems of smartwatches and the average price of a smartwatch is $312.
@@ -86,6 +86,7 @@ Mobvoi at 24 smartwatches each, Apple has 14 watches and raks 12th on the data. 
 - WearOS is used by 21 different brands out of the 38 brands that's about 56% of the brands using this OS, that shows a massive dominance in the operating system sector followed by proprietary operating system which isnt exactly proprietary because about 8 distinct brands make use of this OS; androidOs has 4 brands and Lite Os has 2, the rest OS has just 1 brands.
 
 
+![](dashboard2.png)
 
 
 Wear OS is the most used operating system by the smartwatches in this data totaling 38% of the total smartwatches. It is followed by Garmin OS which is used by 9% of the smartwatches.
